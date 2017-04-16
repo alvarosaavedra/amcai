@@ -1,0 +1,11 @@
+{
+  "locals": {
+    "url": "http://localhost:8080",
+    "name": "AMCAI",
+    "owner": "AMCAI",
+    "description": "Asociacion Motoqueros Contra el abuso infantil"
+  },
+  "jade": {
+    "pretty": true
+  }
+}
