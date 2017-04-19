@@ -5,6 +5,9 @@
     "owner": "AMCAI",
     "description": "Asociacion Motoqueros Contra el abuso infantil"
   },
+  "require": {
+    "_": "underscore"
+  },
   "jade": {
     "pretty": true
   }
