@@ -10,22 +10,22 @@ collections:
       folder: "contents/descriptions"
       create: true
       fields:
-        - {label: "Titulo", name: "title", widget:"string"}
-        - {label: "Posicion", name: "order", widget:"number"}
-        - {label: "Texto", name: "body", widget:"markdown"}
+        - {label: "Titulo", name: "title", widget: "string"}
+        - {label: "Posicion", name: "order", widget: "number"}
+        - {label: "Texto", name: "body", widget: "markdown"}
     - name: 'testimonials'
       label: Testimonios
       folder: "contents/testimonials"
       create: true
       fields:
-        - {label: "Titulo", name: "title", widget:"string"}
-        - {label: "Posicion", name: "order", widget:"number"}
-        - {label: "Texto", name: "body", widget:"markdown"}
+        - {label: "Titulo", name: "title", widget: "string"}
+        - {label: "Posicion", name: "order", widget: "number"}
+        - {label: "Texto", name: "body", widget: "markdown"}
     - name: 'endings'
       label: Finales
       folder: "contents/endings"
       create: true
       fields:
-        - {label: "Titulo", name: "title", widget:"string"}
-        - {label: "Posicion", name: "order", widget:"number"}
-        - {label: "Texto", name: "body", widget:"markdown"}
+        - {label: "Titulo", name: "title", widget: "string"}
+        - {label: "Posicion", name: "order", widget: "number"}
+        - {label: "Texto", name: "body", widget: "markdown"}
