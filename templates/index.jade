@@ -7,10 +7,10 @@ block content
             a.active.item Home
           .right.menu
             .item
-              a.ui.button Donate
+              a.ui.button Donaciones
         .ui.vertical.inverted.sidebar.menu.left
           a.active.item Home
-          a.ui.button Donate
+          a.ui.button Donaciones
         .pusher
           .ui.inverted.vertical.masthead.center.aligned.segment
             .ui.container
@@ -20,13 +20,13 @@ block content
                 a.active.item Home
                 .right.menu
                   .item
-                    a.ui.inverted.button Donate
+                    a.ui.inverted.button Donaciones
             .ui.text.container
               h1.ui.inverted.header A.M.C.A.I.
               h2
                 =locals.description
               .ui.huge.primary.button
-                ='Donate'
+                ='Contactanos'
           .ui.vertical.stripe.segment
             .ui.middle.aligned.stackable.grid.container
               .row
@@ -40,7 +40,7 @@ block content
                   img(src=" http://placehold.it/350x350")
               .row
                 .center.aligned.column
-                  a.ui.huge.button Check Out
+                  a.ui.huge.button Contactanos
           .ui.vertical.stripe.quote.segment
               .ui.equal.width.stackable.internally.celled.grid
                 .center.aligned.row
@@ -51,8 +51,11 @@ block content
                       include partials/testimony
           .ui.vertical.stripe.segment
             .ui.text.container
-              h3.ui.header Breaking The Grid, Grabs Your Attention
-              p Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.
+                - var endings = _.chain(contents['endings']._.pages).sortBy(function(item) {
+                -   return item.metadata['order'];
+                - }).value()
+                each ending in endings
+                    include partials/ending
           .ui.inverted.vertical.footer.segment
             .ui.container
               .ui.stackable.inverted.divided.equal.height.grid
