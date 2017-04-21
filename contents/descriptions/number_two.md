@@ -1,5 +1,5 @@
 ---
-title: Ayudamos a niños y niñas
+title: 'Nuestra misión '
 order: 2
 ---
-Muchos niños y niñas necesitan ayuda después de ser abusados, nosotros les brindamos un espacio seguro donde abrirse.
+Nuestra misión consiste en procurar y dar apoyo a los menores que se sienten amenazados, de forma que pierdan el miedo a su entorno y sean capaces de desarrollarse como individuos. 
