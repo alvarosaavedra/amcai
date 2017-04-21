@@ -1,5 +1,5 @@
 ---
-title: El abuso afecta a todos
+title: Quienes somos
 order: 1
 ---
-Un pequeño gesto para ellos significa tanto....Ayúdanos a dar más sonrisas
+Agrupación de Motoqueros Contra el Abuso Infantil, A.M.C.A.I, es una Organización que ha nacido con la intención de ofrecer un mundo más seguro a los niños víctimas de acosos y abusos. 
